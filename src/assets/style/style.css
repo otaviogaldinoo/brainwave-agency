@@ -2,16 +2,21 @@
 
 body {
     width: 100%;
+    height: auto;
 }
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/main/background.svg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
 }
 
 header {
-    border: 1px solid black;
     width: 1189px;
     height: 50px;
     margin-top: 16px;
@@ -51,6 +56,52 @@ header > button {
 }
 
 header > button > p {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 95px;
+    gap: 107px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    width: 541px;
+    height: 386px;
+}
+
+.main-text > span {
+    font-size: 13px;
+    color: #F64B4B;
+}
+
+.main-text > h1 {
+    font-size: 56px;
+    margin-top: 25px;
+    color: #161C2D;
+    font-weight: bold;
+}
+
+.main-text > p {
+    font-size: 19px;
+    color: #161C2D;
+    margin-top: 25px;
+    font-weight: normal;
+}
+
+.main-text > button {
+    margin-top: 67px;
+    background-color: #473BF0;
+    width: 220px;
+    height: 59px;
+    border-radius: 10px;
+}
+
+.main-text > button > p {
     color: white;
     font-weight: bold;
     font-size: 15px;
