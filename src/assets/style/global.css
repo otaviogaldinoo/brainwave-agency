@@ -38,3 +38,11 @@ button:hover {
     transform: scale(1.01);
 }
 
+:root {
+    --blue: #473BF0;
+    --dark-blue: #161C2D;
+    --green: #68d585;
+    --red: #f74d4d;
+    --gray : #979797;
+    --white: #FFFFFF;
+}

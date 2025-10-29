@@ -49,14 +49,14 @@ header > nav > a:hover {
 
 header > button {
     margin-left: 415px;
-    background-color: #473BF0;
+    background-color: var(--blue);
     width: 209px;
     height: 50px;
     border-radius: 10px;
 }
 
 header > button > p {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 15px;
 }
@@ -76,33 +76,33 @@ header > button > p {
 
 .main-text > span {
     font-size: 13px;
-    color: #F64B4B;
+    color: var(--red);
 }
 
 .main-text > h1 {
     font-size: 56px;
     margin-top: 25px;
-    color: #161C2D;
+    color: var(--dark-blue);
     font-weight: bold;
 }
 
 .main-text > p {
     font-size: 19px;
-    color: #161C2D;
+    color: var(--dark-blue);
     margin-top: 25px;
     font-weight: normal;
 }
 
 .main-text > button {
     margin-top: 67px;
-    background-color: #473BF0;
+    background-color: var(--blue);
     width: 220px;
     height: 59px;
     border-radius: 10px;
 }
 
 .main-text > button > p {
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 15px;
 }
