@@ -1,0 +1,57 @@
+@import url(./global.css);
+
+body {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    border: 1px solid black;
+    width: 1189px;
+    height: 50px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header > img {
+    width: 154px;
+    height: 28px;
+    margin-left: 30px;
+}
+
+header > nav {
+    margin-left: 48px;
+    width: 333px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+header > nav > a {
+    transition: transform 0.3s ease;
+}
+
+header > nav > a:hover {
+    transform: scale(1.05);
+}
+
+header > button {
+    margin-left: 415px;
+    background-color: #473BF0;
+    width: 209px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+header > button > p {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
