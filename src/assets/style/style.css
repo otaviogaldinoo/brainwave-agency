@@ -234,6 +234,7 @@ header > button > p {
 }
 /* end our services */
 
+/* start testimonial */
 .testimonial-container {
     width: 100%;
     height: auto;
@@ -299,3 +300,92 @@ header > button > p {
     width: 1108px;
     background-color: black;
 }
+/* end testimonial */
+
+/* start about */
+.about-container {
+    margin-top: 122px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    width: 1110px;
+    height: 883px;
+    display: flex;
+    gap: 25px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.about-left > div > span {
+    font-size: 13px;
+    color: var(--red);
+    font-weight: bold;
+}
+
+.about-left > div > h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+.about-left > img {
+    width: 445px;
+    height: 565px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-right-images  {
+    display: flex;
+    gap: 92px;
+    justify-content: center;
+    position: relative;
+    height: 370px;
+}
+
+.img2about {
+    width: 318px;
+    height: 332px;
+    position: relative;
+    z-index: 1;
+    margin-top: 7.5%;
+}
+
+.img3about {
+    width: 160px;
+    height: 167px;
+    margin-top: 120px;
+}
+
+.fill {
+    width: 107px;
+    height: 109px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 55px;
+}
+
+.about-right > p {
+    margin-top: 100px;
+    font-size: 17px;
+    color: var(--dark-blue);
+    font-weight: normal;
+    opacity: 0.7;
+}
+/* end abouut */
