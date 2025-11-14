@@ -298,7 +298,7 @@ header > button > p {
 .testimonial-line {
     height: 1px;
     width: 1108px;
-    background-color: black;
+    background-color: #E7E9ED;
 }
 /* end testimonial */
 
@@ -389,3 +389,40 @@ header > button > p {
     opacity: 0.7;
 }
 /* end abouut */
+
+/* start facts */
+.facts-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts-content {
+    margin-top: 121px;
+    display: flex;
+    gap: 66px;
+}
+
+.facts-content > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 314px;
+    height: auto;
+    gap: 18px;
+}
+
+.facts-content > div > h2 {
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--dark-blue);
+}
+
+.facts-content > div > p {
+    font-weight: normal;
+    font-size: 19px;
+    color: var(--dark-blue);
+    opacity: 0.7;
+}
